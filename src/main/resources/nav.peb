@@ -1,0 +1,13 @@
+{% extends "bases/navBase.peb" %}
+
+{% block navItems %}
+   {{ navItem("Home", "/") }}
+   {{ navItem("Restaurants", "/restaurants") }}
+   {{ navItem("Owners", "/owners") }}
+   {{ navItem("Reservation","/reservations") }}
+   {{ navItem("Menu", "/menu") }}
+   {{ navItem("Order", "/order") }}
+   {{ navItem("Customer", "/customers") }}
+   {{ navItem("Review", "/review") }}
+{% endblock %}
+
